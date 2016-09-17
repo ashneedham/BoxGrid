@@ -1,0 +1,118 @@
+/*
+----------------------------------
+BoxGrid
+----------------------------------
+@Author: Ashley Needham
+@Description: Fixes for IE9
+@Version: 1.3
+@License: MIT
+@URL: http://code.ashneedham.co.uk/boxgrid
+*/
+.boxgrid {
+  display: block; }
+  .boxgrid > .col {
+    display: block;
+    float: left; }
+
+.boxgrid-ie-table {
+  display: table;
+  height: 100%; }
+  .boxgrid-ie-table .boxgrid-ie-tr {
+    display: table-row;
+    height: 100%; }
+    .boxgrid-ie-table .boxgrid-ie-tr .boxgrid-ie-td {
+      display: table-cell;
+      height: 100%; }
+
+@media screen and (min-width: 300px) {
+  .boxgrid > .xs_left {
+    text-align: left; }
+
+  .boxgrid > .xs_center {
+    text-align: center; }
+
+  .boxgrid > .xs_right {
+    text-align: right; }
+
+  .boxgrid > .xs_top .boxgrid-ie-td {
+    vertical-align: top; }
+
+  .boxgrid > .xs_middle .boxgrid-ie-td {
+    vertical-align: middle; }
+
+  .boxgrid > .xs_bottom .boxgrid-ie-td {
+    vertical-align: bottom; } }
+@media screen and (min-width: 450px) {
+  .boxgrid > .sm_left {
+    text-align: left; }
+
+  .boxgrid > .sm_center {
+    text-align: center; }
+
+  .boxgrid > .sm_right {
+    text-align: right; }
+
+  .boxgrid > .sm_top .boxgrid-ie-td {
+    vertical-align: top; }
+
+  .boxgrid > .sm_middle .boxgrid-ie-td {
+    vertical-align: middle; }
+
+  .boxgrid > .sm_bottom .boxgrid-ie-td {
+    vertical-align: bottom; } }
+@media screen and (min-width: 750px) {
+  .boxgrid > .md_left {
+    text-align: left; }
+
+  .boxgrid > .md_center {
+    text-align: center; }
+
+  .boxgrid > .md_right {
+    text-align: right; }
+
+  .boxgrid > .md_top .boxgrid-ie-td {
+    vertical-align: top; }
+
+  .boxgrid > .md_middle .boxgrid-ie-td {
+    vertical-align: middle; }
+
+  .boxgrid > .md_bottom .boxgrid-ie-td {
+    vertical-align: bottom; } }
+@media screen and (min-width: 1200px) {
+  .boxgrid > .lg_left {
+    text-align: left; }
+
+  .boxgrid > .lg_center {
+    text-align: center; }
+
+  .boxgrid > .lg_right {
+    text-align: right; }
+
+  .boxgrid > .lg_top .boxgrid-ie-td {
+    vertical-align: top; }
+
+  .boxgrid > .lg_middle .boxgrid-ie-td {
+    vertical-align: middle; }
+
+  .boxgrid > .lg_bottom .boxgrid-ie-td {
+    vertical-align: bottom; } }
+@media screen and (min-width: 1600px) {
+  .boxgrid > .xl_left {
+    text-align: left; }
+
+  .boxgrid > .xl_center {
+    text-align: center; }
+
+  .boxgrid > .xl_right {
+    text-align: right; }
+
+  .boxgrid > .xl_top .boxgrid-ie-td {
+    vertical-align: top; }
+
+  .boxgrid > .xl_middle .boxgrid-ie-td {
+    vertical-align: middle; }
+
+  .boxgrid > .xl_bottom .boxgrid-ie-td {
+    vertical-align: bottom; } }
+
+/*# sourceMappingURL=boxgrid-ie.css.map */

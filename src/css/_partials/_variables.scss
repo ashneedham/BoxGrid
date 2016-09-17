@@ -1,0 +1,12 @@
+$breakpoints: (
+    ("xs", 300px),
+    ("sm", 450px),
+    ("md", 750px),
+    ("lg", 1200px),
+    ("xl", 1600px),
+);
+
+$gutter_size: 1%;
+$vertical_margin: 0.5em;
+$double_gutter: $gutter_size * 2;
+$single_col: 100% / 12;
